@@ -1,0 +1,35 @@
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+}
+.rating-box{
+  position: relative;
+  background: #ffff;
+  padding: 25px 50px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.664);
+}
+.rating-box header{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.star{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.star i{
+  color: rgba(89, 99, 107, 0.217);
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.star i.active{
+  color: rgb(255, 183, 0);
+}
